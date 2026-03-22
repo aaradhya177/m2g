@@ -22,7 +22,7 @@ pipeline {
 
         stage('Run Application') {
             steps {
-                sh 'java -jar build/libs/MyMavenToGradle-1.0-SNAPSHOT.jar'
+                sh 'java -jar build/libs/m2g-1.0-SNAPSHOT.jar'
             }
         }
     }
